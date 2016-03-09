@@ -1,0 +1,111 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+#main_title {
+  font-family: Roboto,Arial;
+  font-size: 25px;
+}
+.type-area,textarea,input {
+	resize: none;
+  border-style: none;
+  border-color: transparent;
+  overflow: auto;
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  font-size: 25px;
+  font-family: Roboto, Arial;
+  position: absolute;
+  width: 450px;
+  height: 26px;
+  margin: 5px;
+  left: 18px;
+  top: 255px;
+  line-height: 25px;
+  background-color: transparent;
+}
+
+textarea:hover,textarea:active,textarea:focus {
+  outline: none;
+  outline-color: transparent;
+
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#time {
+  position: absolute;
+  width: 84px;
+  height: 54px;
+  right: 5px;
+  top: 20px;
+  line-height: 54px;
+  text-align: center;
+}
+#grossWPM {
+  position: absolute;
+    width: 84px;
+    height: 54px;
+    right: 5px;
+    top: 114px;
+    line-height: 54px;
+    text-align: center;
+}
+#wrongWords {
+      position: absolute;
+    width: 84px;
+    height: 54px;
+    right: 5px;
+    top: 167px;
+    line-height: 54px;
+    text-align: center;
+}
+
+#test-container {
+  position: relative;
+  width: 600px;
+  height: 335px;
+  background: url('../images/test-background.png') no-repeat;
+  cursor: default;
+}
+
+#storybox {
+  font-family: Roboto, Arial;
+  font-size: 40px;
+
+  position: absolute;
+    width: 470px;
+    height: 228px;
+    padding: 0 5px 5px 0;
+    top: 15px;
+    left: 23px;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+.word {
+	font-size: 20px;
+}
+.correct {
+	color: green;
+}
+.wrong {
+	color: red;
+}
+.current {
+  color: blue;
+}
+.normal {
+  color: black;
+}
